@@ -6,8 +6,8 @@ files:
     destination: /var/www/html
   - source: files/about.html
     destination: /var/www/html
-  - source files/contact.html
-    destination /var/www/html
+  - source: files/contact.html
+    destination: /var/www/html
 
 permissions:
   - object: /var/www/html
